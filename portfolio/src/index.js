@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import Site from './components/Site.js';
 import * as serviceWorker from './serviceWorker';
-import WebFont from 'webfontloader';
+
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import WebFont from 'webfontloader';
+import './custom.css';
 
 WebFont.load({
     google: {
@@ -12,7 +13,7 @@ WebFont.load({
     }
 });
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Site />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
