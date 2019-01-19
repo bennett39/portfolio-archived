@@ -19,6 +19,9 @@ class App extends Component {
           >
             Learn React
           </a>
+          <h1>Heading 1</h1>
+          <h2>Heading 2</h2>
+          <p>Paragraph with <strong>bold text</strong> and <em>italic text.</em></p>
         </header>
       </div>
     );
