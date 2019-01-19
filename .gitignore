@@ -1,5 +1,6 @@
-#
-/nodejs-docs-samples
+# Vim files
+*.swp
+*.swo
 
 # Logs
 logs
