@@ -5,3 +5,7 @@ body {
 code {
     font-family: 'Cutive Mono' !important;
 }
+
+.card {
+    width: 36rem;
+}
