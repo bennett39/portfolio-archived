@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import WebFont from 'webfontloader';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 WebFont.load({
     google: {
