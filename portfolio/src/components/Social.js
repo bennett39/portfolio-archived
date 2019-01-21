@@ -8,10 +8,18 @@ class Social extends Component {
   render() {
     return (
       <div className="social">
-        <img src={mediumLogo} alt="Medium Logo" className="p-2" />
-        <img src={linkedinLogo} alt="LinkedIn Logo" className="p-2" />
-        <img src={twitterLogo} alt="Twitter Logo" className="p-2" />
-        <img src={githubLogo} alt="GitHub Logo" className="p-2" />
+        <a href="http://medium.com/@BennettGarner/">
+          <img src={mediumLogo} alt="Medium Logo" className="p-2" />
+        </a>
+        <a href="https://www.linkedin.com/in/bennettgarner/">
+          <img src={linkedinLogo} alt="LinkedIn Logo" className="p-2" />
+        </a>
+        <a href="https://twitter.com/BennettGarner">
+          <img src={twitterLogo} alt="Twitter Logo" className="p-2" />
+        </a>
+        <a href="https://github.com/bennett39">
+          <img src={githubLogo} alt="GitHub Logo" className="p-2" />
+        </a>
       </div>
     );
   }
