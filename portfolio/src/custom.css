@@ -6,6 +6,15 @@ code {
     font-family: 'Cutive Mono' !important;
 }
 
-.card {
-    width: 36rem;
+
+h1 {
+    margin-top: 10rem;
+}
+
+h2 {
+    margin-top: 5rem;
+}
+
+img {
+    margin-top: 5rem;
 }
